@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">My Story</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1 id="headline">Welcome to My Personal Portifolio</h1>
+      <p id="subheadline">This is where amazing things happen.</p>
+      <a href="#about" class="cta-button">Learn more about me!</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>Hi, my name is Arnab Sarkar. I'm a B.Tech student with a passion for computers that dates back to my childhood. Ever since I was young, I’ve been fascinated by the world of technology, from the inner workings of hardware to the magic of coding. My curiosity has always driven me to explore and learn more about how computers work and how they shape the world around us.
+
+        As I continue my academic journey in engineering, I’m constantly inspired by the endless possibilities technology offers. Whether it's building software, understanding complex algorithms, or exploring the latest trends in the tech world, I love diving into new challenges and expanding my knowledge.
+        
+        Through my studies, I've developed strong problem-solving skills and a deep understanding of the tech industry, and I’m excited to continue this path toward becoming a skilled professional in the field.
+        
+        I believe in the power of technology to change lives, and I am eager to contribute to that change through my work and passion for innovation.</p>
+    </div>
+  </section>
+
+<!-- Services Section -->
+<section class="services" id="services">
+    <h2>My Story</h2>
+    <div class="tabs">
+      <!-- Tab buttons -->
+      <div class="tab-buttons">
+        <button class="tab-button active" onclick="openTab(event, 'educational-background')">Educational Background</button>
+        <button class="tab-button" onclick="openTab(event, 'experience')">Experience</button>
+        <button class="tab-button" onclick="openTab(event, 'publications')">Paper/Patent Publications</button>
+        <button class="tab-button" onclick="openTab(event, 'awards')">Awards and Achievements</button>
+        <button class="tab-button" onclick="openTab(event, 'projects')">Projects</button>
+        <button class="tab-button" onclick="openTab(event, 'membership')">Membership</button>
+        <button class="tab-button" onclick="openTab(event, 'research')">Research Thrust Area</button>
+        <button class="tab-button" onclick="openTab(event, 'events')">List of Events</button>
+        <button class="tab-button" onclick="openTab(event, 'presentation')">Poster/Paper Presentation</button>
+        <button class="tab-button" onclick="openTab(event, 'courses')">Courses Completed</button>
+      </div>
+  
+      <!-- Tab content -->
+      <div class="tab-content">
+        <div id="educational-background" class="tab-pane active">
+          <h3>Educational Background</h3>
+          <p>I completed my Higher Secondary in 2024 from Sodepur High School, where I explored a wide array of subjects that helped shape my academic foundation. I studied core subjects like Mathematics, Physics, Chemistry, and Statistics, which strengthened my problem-solving skills and ignited my passion for technology. Additionally, my focus on English and Bengali improved my communication abilities and appreciation for languages.
+
+            <br><br>Currently, I am pursuing a Bachelor of Technology (B.Tech) in Computer Science at the University of Engineering & Management, Kolkata (UEMK), where I am in my 1st year. This course is providing me with a deeper understanding of computer science principles, programming, and technology-driven solutions. I’m excited to continue growing in this field and to further develop the skills needed to make a meaningful impact in the tech world.</p>
+        </div>
+        <div id="experience" class="tab-pane">
+          <h3>Experience</h3>
+          <p>One day, when I'm old enough and successful enough , I'll be able to fill up this page!</p>
+        </div>
+        <div id="publications" class="tab-pane">
+          <h3>Paper/Patent Publications</h3>
+          <p>One day, when I'm old enough and successful enough , I'll be able to fill up this page!</p>
+        </div>
+        <div id="awards" class="tab-pane">
+          <h3>Awards and Achievements</h3>
+          <p>One day, when I'm old enough and successful enough , I'll be able to fill up this page!</p>
+        </div>
+        <div id="projects" class="tab-pane">
+          <h3>Projects</h3>
+          <p>One day, when I'm old enough and successful enough , I'll be able to fill up this page!</p>
+        </div>
+        <div id="membership" class="tab-pane">
+          <h3>Membership</h3>
+          <p>One day, when I'm old enough and successful enough , I'll be able to fill up this page!</p>
+        </div>
+        <div id="research" class="tab-pane">
+          <h3>Research Thrust Area</h3>
+          <p>One day, when I'm old enough and successful enough , I'll be able to fill up this page!</p>
+        </div>
+        <div id="events" class="tab-pane">
+          <h3>List of Events</h3>
+          <p>One day, when I'm old enough and successful enough , I'll be able to fill up this page!</p>
+        </div>
+        <div id="presentation" class="tab-pane">
+          <h3>Poster/Paper Presentation</h3>
+          <p>One day, when I'm old enough and successful enough , I'll be able to fill up this page!</p>
+        </div>
+        <div id="courses" class="tab-pane">
+          <h3>Courses Completed</h3>
+          <p>One day, when I'm old enough and successful enough , I'll be able to fill up this page!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Get in contact with me!</h2>
+    <form action="#" method="POST">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="social-icons">
+      <a href="https://twitter.com" target="_blank" class="social-icon twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com" target="_blank" class="social-icon instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com" target="_blank" class="social-icon facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.youtube.com" target="_blank" class="social-icon youtube">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
+    <p>&copy; 2024 Arnab Sarkar. All rights reserved.</p>
+  </footer>
+  
+
+  <!-- JavaScript for fade-in effect -->
+  <script>
+    window.onload = function() {
+      document.body.style.transition = "opacity 2s ease-in-out";
+      document.body.style.opacity = 1;
+    };
+  </script>
+<script>
+    window.onscroll = function() {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 100) {  // When scrolling down 100px
+        navbar.style.backgroundColor = '#333';  // Dark background
+      } else {
+        navbar.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';  // Semi-transparent on top
+      }
+    };
+  </script>
+  <script>
+    // Function to open the tab content
+    function openTab(event, tabName) {
+      // Hide all tab content
+      const allTabs = document.querySelectorAll('.tab-pane');
+      allTabs.forEach(tab => {
+        tab.classList.remove('active');
+      });
+  
+      // Remove active class from all buttons
+      const allButtons = document.querySelectorAll('.tab-button');
+      allButtons.forEach(button => {
+        button.classList.remove('active');
+      });
+  
+      // Show the clicked tab's content
+      document.getElementById(tabName).classList.add('active');
+  
+      // Add the active class to the clicked button
+      event.currentTarget.classList.add('active');
+    }
+  
+    // Set default active tab on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelector('.tab-button').click();
+    });
+  </script>
+  
+</body>
+</html>
